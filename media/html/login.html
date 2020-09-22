@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登录注册页</title>
+    <link rel="stylesheet" href="../css/login.css" />
+    <link
+      rel="stylesheet"
+      href="http://at.alicdn.com/t/font_2060944_8ojdbgdtwcp.css"
+    />
+  </head>
+  <body>
+    <!-- 头部 -->
+    <div class="head clearfix">
+      <div class="logo">
+        <a href="https://www.midea.cn/?mtag=40005.1.10"></a>
+      </div>
+    </div>
+    <!-- 登录注册界面 -->
+    <div class="login clearfix">
+      <div class="l-left">
+        <a href="javascript:void(0)">
+          <img
+            src="https://pic.midea.cn/h5/pic/202006/51e8ecce92b9.png?x-oss-process=image/format,webp/quality,Q_90&@100Q.png"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="l-right">
+        <!-- 登录界面 -->
+        <div class="login_inner denglu active">
+          <div class="login_way">
+            <div class="login_way_tit">使用合作号登录</div>
+            <ul class="login_way_list">
+              <li>
+                <a href="javascript:;">
+                  <i class="qq"></i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;">
+                  <i class="wx"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="login_type">
+            <!-- 账号密码登录 -->
+            <div class="type_mima">
+              <form> 
+                <div class="mima_form_tit">账号密码登录</div>
+                <input
+                  autocomplete="off"
+                  name="phone"
+                  type="text"
+                  placeholder="请输入手机号"
+                  class="mima_form_phone"
+                  maxlength="13"
+                />
+                <input
+                  autocomplete="off"
+                  name="password"
+                  type="text"
+                  class="mima_form_passw"
+                  placeholder="请输入密码"
+                  maxlength="20"
+                />
+                <!-- <h3 style="display: none">用户名密码错误!</h3> -->
+                <button class="mima_form_deng" name="login">登录</button>
+                <div class="links">
+                  <a href="javascript:;" class="duanxin">短信验证登录</a>
+                  <span class="line"> | </span>
+                  <a href="javascript:;" class="zhuce">注册</a>
+                  <a href="javascript:;" class="mimaback">找回密码</a>
+                </div>
+              </form>
+            </div>
+            <!-- 短信验证登录 -->
+            <div class="type_mobile"></div>
+          </div>
+        </div>
+        <!-- 注册界面 -->
+        <div class="zhuce_reg">
+          <form action="">
+            <div class="zhuce_form_tit">使用手机号注册</div>
+            <div class="zhece_form_phone">
+              <input type="text" class="zhece_form_input" placeholder="请输入手机号" name="regphone">
+              <a class="yanzhengma" href="javascript:;">获取验证码</a>
+            </div>
+            <input class="zhuce_duanxin" placeholder="短信验证码" disabled></input>
+            <input type="text" class="zhuce_password_first" placeholder="请输入密码" name="regpassword">
+            <input class="zhuce_password_second" placeholder="确认密码" disabled></input>
+            <div class="yaoqiu">密码长度必须在8位以上，含大小写字母、数字、符号至少三种</div>
+            <div class="agree">
+            <input type="checkbox" class="input_agree" disabled>
+            <span class="span_agree">同意</span>
+            <a class="a_agree" href="javascript:;">《美的官方商城用户注册协议》</a>
+          </div>
+          <button class="zhuce_btn">注册</button>
+          <a href="javascript:;" class="already">已有账号？请登录</a>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- 尾部信息 -->
+    <div class="foot">
+      <div class="bottom clearfix">
+        <span class="one">Copyright © 1968-2020 广东美的网络科技有限公司</span>
+      </div>
+    </div>
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../lib/template-web.js"></script>
+    <script src="../lib/utils.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>

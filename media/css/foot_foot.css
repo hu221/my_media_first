@@ -1,0 +1,113 @@
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.top {
+    margin: 20px auto 0;
+    width: 1200px;
+    height: 50px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.top>ul {
+    width: 100%;
+    height: 100%;
+}
+
+.top>ul>li {
+    float: left;
+
+}
+
+.top>ul>li>a {
+    width: 60px;
+    height: 12px;
+    font-size: 12px;
+    color: #000;
+    margin-right: 80px;
+    line-height: 12px;
+}
+
+.top>ul>li>a:hover {
+    color: red;
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+
+}
+
+.one {
+    margin-top: 15px;
+    float: left;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.two {
+    margin-top: 15px;
+    float: left;
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+img {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.r-t {
+    height: 30px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.r-t>a {
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.r-o {
+    float: left;
+    height: 30px;
+    width: 300px;
+}
+
+.r-o>a {
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.two:hover,
+.r-t>a:hover,
+.r-o>a:hover {
+    color: red;
+}

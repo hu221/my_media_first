@@ -1,0 +1,554 @@
+body {
+    background: #f4f4f4;
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+}
+
+.cart_top {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+.cart_top h2 {
+    width: 96px;
+    height: 80px;
+    float: left;
+    font-size: 32px;
+    line-height: 80px;
+    color: #333;
+    font-weight: normal;
+    font-family: inherit;
+    vertical-align: baseline;
+    margin-left: 200px;
+}
+
+.cart_empty {
+    width: 1200px;
+    height: 180px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    padding: 60px 0;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.cart_empty i {
+    width: 84px;
+    height: 72px;
+    margin: 0 auto;
+    background: url(//img.mdcdn.cn/pc/img/cart/cart_sprite.png?t=20191028) no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+.hinter {
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+    margin-top: 40px;
+}
+
+.cart_btn {
+    width: 1200px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 0;
+    color: #333;
+}
+
+.cart_btn a {
+    width: 88px;
+    height: 28px;
+    margin-right: 5px;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 28px;
+    border: 1px solid #c8c8c8;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+
+.pro_cart {
+    display: block;
+    width: 1200px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    height: 33px;
+    line-height: 33px;
+    background: #FFF3DB;
+    border: 1px solid #E9E9E9;
+    padding: 0 20px;
+    font-size: 12px;
+    color: #333;
+}
+
+.pro_cart a {
+    display: block;
+    width: 48px;
+    height: 33px;
+    padding: 0 18px;
+    cursor: pointer;
+    float: right;
+    text-decoration: none;
+    color: #333;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+
+.cart_all {
+    width: 1198px;
+    border: 1px solid #e9e9e9;
+    background-color: #fafafa;
+    height: 40px;
+    line-height: 40px;
+    color: #aaa;
+    margin: 20px auto;
+    font-size: 12px;
+}
+
+.cart_all input {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.cart_all .choose_all {
+    width: 114px;
+    height: 40px;
+    padding: 0 10px 0 20px;
+    color: #333;
+    float: left;
+    line-height: 40px;
+}
+
+.cart_all li {
+    float: left;
+}
+
+.cart_list {
+    width: 1200px;
+    color: #333;
+    background-color: #fff;
+    margin: 10px auto;
+}
+
+.cart_title {
+    width: 1178px;
+    height: 40px;
+    background-color: #fafafa;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.guan {
+    width: 120px;
+    height: 20px;
+    float: left;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.cart_title input {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    float: left;
+    margin-top: 14px;
+}
+
+.cart_title a {
+    display: block;
+    height: 40px;
+    width: 69px;
+    background: url(//pic.midea.cn/pc/img/cart/cart_coupon.png) no-repeat;
+    background-position-x: -90px;
+    background-position-y: -62px;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+    line-height: 22px;
+    margin-left: 170px;
+    line-height: 40px;
+}
+
+.activity_top {
+    width: 1178px;
+    height: 20px;
+    padding: 14px 0 14px 20px;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.activity_top input {
+    float: left;
+    margin-right: 20px;
+}
+
+.activity_top .chang {
+    padding: 0 7px;
+    font-size: 12px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    background-color: #f60;
+    border: 1px solid #f60;
+    color: #fff;
+    margin-right: 28px;
+    font-style: normal;
+    width: 48px;
+    float: left;
+}
+
+.zhe {
+    width: 166px;
+    height: 20px;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+}
+
+.shangli {
+    width: 1158px;
+    padding: 0 20px;
+}
+
+.shangli li {
+    height: 121px;
+    width: 100%;
+    background-color: #fffceb;
+    color: #333;
+    float: left;
+    width: 1158px;
+    border-top: 1px solid #e9e9e9;
+}
+
+.shangli .item {
+    width: 1124px;
+    height: 121px;
+    border-top: 1px solid #e9e9e9;
+    float: left;
+}
+
+.item img {
+    display: block;
+    width: 90px;
+    height: 80px;
+    float: left;
+    padding: 20px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item .item_desc {
+    width: 225px;
+    padding-right: 90px;
+    padding-left: 0;
+    font-size: 12px;
+    float: left;
+    padding: 20px 0;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+    height: 81px;
+    margin-right: 90px;
+}
+
+.item .item_desc a {
+    display: block;
+    width: 225px;
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-wrap: break-word;
+    word-break: break-all;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.item .item_sku {
+    width: 160px;
+    float: left;
+    padding: 20px 0;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+    height: 36px;
+}
+
+.item .item_sku span {
+    display: block;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+    width: 160px;
+    height: 18px;
+}
+
+.item .item_price {
+    width: 160px;
+    float: left;
+    padding: 20px 0;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+    height: 68px;
+}
+
+.item_old_price {
+    color: #a9a9a9;
+    text-decoration: line-through;
+    font-weight: bolder;
+    display: block;
+    width: 100%;
+    height: 18px;
+}
+
+.item_price_now {
+    font-weight: bolder;
+    display: block;
+    width: 100%;
+    height: 18px;
+}
+
+.more_act {
+    width: 52px;
+    margin-top: 6px;
+    cursor: pointer;
+    color: #f60;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    padding: 0 6px;
+    border: 1px solid #f60;
+    border-radius: 2px;
+
+}
+
+.item_num {
+    width: 80px;
+    height: 26px;
+    float: left;
+    padding: 20px 80px 20px 0;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.item_num .minus,
+.item_num .plus {
+    display: block;
+    width: 22px;
+    height: 24px;
+    cursor: pointer;
+    line-height: 28px;
+    border: 1px solid #d6d6d6;
+    text-align: center;
+    float: left;
+}
+
+.item_num .minus i,
+.item_num .plus i {
+    line-height: 24px;
+}
+
+.inp_num {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    width: 30px;
+    border-radius: 0;
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    font-size: 100%;
+    font-family: inherit;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+}
+
+.item_total {
+    color: #f60;
+    font-weight: bolder;
+    width: 118px;
+    float: left;
+    padding: 20px 0;
+    height: 18px;
+    font-size: 12px;
+}
+
+.item_opration {
+    width: 79px;
+    padding-left: 0;
+    float: left;
+    padding: 20px 0;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+    height: 40px;
+}
+
+.collect {
+    width: 100%;
+    height: 18px;
+    cursor: pointer;
+    display: block;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.delet {
+    width: 100%;
+    height: 18px;
+    cursor: pointer;
+    display: block;
+    color: #333;
+    margin-top: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+body {
+    position: relative;
+}
+
+.cart_sum {
+    width: 1188px;
+    max-width: 1188px;
+    height: 60px;
+    margin-top: 10px;
+    padding-left: 10px;
+    background-color: #fafafa;
+    border: 1px solid #e9e9e9;
+    position: sticky;
+    bottom: 0;
+    margin: auto;
+}
+
+.sum_left {
+    width: 733px;
+    height: 60px;
+    line-height: 60px;
+    clear: right;
+    overflow: hidden;
+    float: left;
+}
+
+.sum_right {
+    float: right;
+    width: 455px;
+    height: 60px;
+}
+
+.sum_choose {
+    width: 48px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    color: #333;
+    font-size: 12px;
+}
+
+.sum_choose input {
+    margin-right: 9px;
+}
+
+.sum_delete,
+.sum_collect,
+.sum_shixiao {
+    margin-left: 40px;
+    cursor: pointer;
+    width: 84px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+    float: left;
+}
+
+.sum_num {
+    width: 74px;
+    height: 60px;
+    margin-right: 40px;
+    line-height: 60px;
+    float: left;
+    font-size: 12px;
+    color: #333;
+}
+
+.sum_num span {
+    display: block;
+    float: left;
+}
+
+.total_chech {
+    float: left;
+    display: block;
+    padding: 0 3px;
+    color: #f60;
+    line-height: 60px;
+    width: 8px;
+    height: 60px;
+}
+
+.sum_price {
+    width: 140px;
+    height: 38px;
+    padding-top: 20px;
+    margin-right: 40px;
+    float: left;
+}
+
+.sum_price .one {
+    width: 46px;
+    height: 20px;
+}
+
+.sum_price .two {
+    color: #f60;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bolder;
+}
+
+.order {
+    width: 160px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #f60;
+    color: #fff;
+    cursor: pointer;
+}

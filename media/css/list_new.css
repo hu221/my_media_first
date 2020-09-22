@@ -1,0 +1,529 @@
+body {
+    background: #f4f4f4;
+}
+
+.fenlei {
+    width: 1200px;
+    height: 337px;
+    background-color: #fff;
+    font-size: 12px;
+    border: 1px solid #eee;
+    color: #333;
+    margin: 10px auto;
+}
+
+.fenlei span,
+.sort span {
+    display: block;
+    font-size: 12px;
+    width: 120px;
+    height: 21px;
+    line-height: 21px;
+    float: left;
+    color: #999;
+}
+
+.fenlei ul {
+    float: left;
+    width: 1030px;
+    height: 21px;
+    color: #666;
+    font-size: 12px;
+}
+
+.lujing {
+    width: 1150px;
+    height: 21px;
+    border-top: 1px solid #eee;
+    padding: 10px 24px;
+}
+
+.cate_one,
+.cate_two,
+.pi,
+.ding,
+.cold,
+.neng {
+    width: 1150px;
+    height: 21px;
+    border-top: 1px solid #eee;
+    padding: 10px 24px;
+}
+
+.cate_two {
+    margin-bottom: 25px;
+}
+
+.cate_two li,
+.pi li,
+.ding li,
+.cold li,
+.neng li {
+    width: 90px;
+    height: 21px;
+    float: left;
+}
+
+.cate_one li a,
+.pi li a,
+.ding li a,
+.cold li a,
+.neng li a {
+    width: 85px;
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 40px;
+    color: #666;
+    font-size: 12px;
+}
+
+.cate_two li a {
+    width: 100%;
+    height: 100%;
+    float: left;
+    line-height: 21px;
+    margin-right: 5px;
+    color: #666;
+    font-size: 12px;
+}
+
+.cate_one li a:hover,
+.cate_two li a:hover,
+.pi li a:hover,
+.ding li a:hover,
+.cold li a:hover,
+.neng li a:hover {
+    color: blue;
+}
+
+.sort {
+    width: 1150px;
+    height: 22px;
+    margin: 16px auto;
+    background-color: #fff;
+    font-size: 12px;
+    border: 1px solid #eee;
+    color: #333;
+    padding: 10px 24px;
+}
+
+.sort ul {
+    width: 220px;
+    height: 21px;
+    float: left;
+}
+
+.sort ul li {
+    float: left;
+    font-size: 12px;
+    line-height: 21px;
+    float: left;
+    color: #666;
+    height: 100%;
+    width: 100px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sort ul li:hover {
+    color: red;
+}
+
+.goodslist {
+    width: 1217px;
+    margin: auto;
+    height: 2000px;
+}
+
+.goodslist>ul {
+    width: 100%;
+}
+
+.goodslist>ul>li {
+    float: left;
+    height: 468px;
+    width: 238px;
+    margin: 0 16px 10px 0;
+    padding: 0 24px 21px;
+    background-color: #fff;
+    position: relative;
+}
+
+.goodslist>ul>li>.tou {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
+}
+
+.goodslist>ul>li>.tou>i {
+    font-size: 21px;
+
+}
+
+.goodslist>ul>li>.tou>span {
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    background-color: #ff6600;
+    width: 48px;
+    height: 29px;
+    padding: 0 20px;
+    line-height: 30px;
+}
+
+.goodslist>ul>li>a {
+    width: 240px;
+    height: 240px;
+    margin: 40px 0;
+}
+
+.goodslist>ul>li>a>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.goodslist>ul>li>.p-c {
+    width: 250px;
+    height: 27px;
+
+}
+
+.goodslist>ul>li>.p-c>.price {
+    font-size: 18px;
+    color: #f60;
+}
+
+.goodslist>ul>li>.p-c>.price_pro {
+    padding-left: 4px;
+    padding-right: 3px;
+    font-size: 12px;
+    color: #000;
+}
+
+.goodslist>ul>li>.p-c>.comment {
+    /* padding-left: 4px; */
+    color: #999;
+    font-size: 12px;
+}
+
+.goodslist>ul>li>.d-s>a {
+    display: block;
+    max-height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 5px;
+}
+
+.goodslist>ul>li>.d-s>a>.dec {
+    font-size: 14px;
+    overflow: hidden;
+    word-break: break-all;
+    margin: 8px auto 0;
+    color: #333;
+
+}
+
+.goodslist>ul>li>.d-s>a>.dec:hover {
+    color: blue;
+}
+
+.goodslist>ul>li>.d-s>.sell_point {
+    color: #999;
+    font-size: 12px;
+    height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.goodslist>ul>li>.coupon>span {
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 4px;
+    float: left;
+    color: #fff;
+    background-color: #ff784b;
+    margin-right: 80px;
+    margin-bottom: 30px;
+}
+
+.goodslist>ul>li>.coupon>em {
+    float: left;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 2px;
+    margin-right: 5px;
+    padding: 1px 4px;
+    font-size: 12px;
+    border: 1px solid #f60;
+    border-radius: 2px;
+    color: #f60;
+}
+
+.goodslist>ul>li>.car>a {
+    display: block;
+    cursor: pointer;
+    float: left;
+    width: 63px;
+    height: 18px;
+}
+
+.goodslist>ul>li>.car>a>button {
+    display: block;
+    width: 100px;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+.goodslist>ul>li>.car>em {
+    float: right;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+.pagi {
+    width: 581px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.foot {
+    width: 1200px;
+    height: 100px;
+    margin: 50px auto;
+}
+
+.top {
+    margin: 20px auto 0;
+    width: 1200px;
+    height: 50px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.top>ul {
+    width: 100%;
+    height: 100%;
+}
+
+.top>ul>li {
+    float: left;
+    height: 100%;
+    line-height: 50px;
+}
+
+.top>ul>li>a {
+    width: 60px;
+    height: 12px;
+    font-size: 12px;
+    color: #000;
+    margin-right: 80px;
+    line-height: 50px;
+}
+
+.top>ul>li>a:hover {
+    color: red;
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+
+}
+
+.one {
+    /* margin-top: 15px; */
+    float: left;
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.two {
+    /* margin-top: 15px; */
+    float: left;
+    height: 30px;
+    width: 120px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.foot img {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.r-t {
+    height: 30px;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.r-t>a {
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.r-o {
+    float: left;
+    height: 30px;
+    width: 300px;
+}
+
+.r-o>a {
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.two:hover,
+.r-t>a:hover,
+.r-o>a:hover {
+    color: red;
+}
+
+.server {
+    width: 62px;
+    height: 259px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.server>ul {
+    width: 100%;
+    height: 100%;
+}
+
+.server>ul>li {
+    width: 100%;
+    height: 64px;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+    background: #000;
+    border-bottom: 1px solid #5a5959;
+    opacity: 0.75;
+}
+
+.server a {
+    width: 38px;
+    height: 40px;
+    padding: 12px;
+    display: block;
+    line-height: 1;
+}
+
+.kefu {
+    display: block;
+    background: url(//img.mdcdn.cn/pc/img/detail/detail_servic_2.png?t=201708301) no-repeat;
+    height: 38px;
+    width: 38px;
+    background-position: 0 0;
+    cursor: pointer;
+    animation: bounce_inf linear 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+.kefu:hover {
+    background: url(//img.mdcdn.cn/pc/img/detail/detail_servic_2.png?t=201708301) no-repeat;
+    background-position: 0 -39px;
+}
+
+@keyframes bounce_inf {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    10% {
+        transform: translate(0px, -2px);
+    }
+
+    20% {
+        transform: translate(0px, 0px);
+    }
+
+    30% {
+        transform: translate(0px, -2px);
+    }
+
+    40% {
+        transform: translate(0px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.fuwu {
+    display: block;
+    background: url(//img.mdcdn.cn/pc/img/detail/detail_servic_2.png?t=201708301) no-repeat;
+    height: 38px;
+    width: 38px;
+    background-position: -38px 0;
+    cursor: pointer;
+}
+
+.fuwu:hover {
+    background: url(//img.mdcdn.cn/pc/img/detail/detail_servic_2.png?t=201708301) no-repeat;
+    background-position: -38px -39px;
+}
+
+.gongzhonghao {
+    display: block;
+    background: url(//img.mdcdn.cn/pc/img/detail/detail_servic_2.png?t=201708301) no-repeat;
+    height: 38px;
+    width: 38px;
+    background-position: -76px 0;
+    cursor: pointer;
+}
+
+.back {
+    display: block;
+    background: url(//img.mdcdn.cn/pc/img/detail/detail_servic_2.png?t=201708301) no-repeat;
+    height: 38px;
+    width: 38px;
+    background-position: -114px 0;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.back:hover {
+    background: url(//img.mdcdn.cn/pc/img/detail/detail_servic_2.png?t=201708301) no-repeat;
+    background-position: -76px -39px;
+}
+
+.weixin {
+    width: 139px;
+    height: 195px;
+    position: absolute;
+    bottom: 64px;
+    left: -215px;
+    padding: 38px 37px;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    display: none;
+}
+
+.weixin.active {
+    display: block;
+}
